@@ -7,12 +7,11 @@ gem 'rails', '~> 4.2.0'
 gem 'turnout'
 
 gem 'sass-rails'
-
 gem 'coffee-rails'
 gem 'uglifier'
 
 
-gem 'foundation-rails'
+gem 'foundation-rails', '~>5.5.3'
 
 gem 'pg'
 
