@@ -7,7 +7,7 @@ gem 'rails', '~> 4.2.0'
 gem 'turnout'
 
 gem 'sass-rails'
-gem 'compass-rails'
+
 gem 'coffee-rails'
 gem 'uglifier'
 

@@ -5,6 +5,7 @@ Airesis::Application.configure do
 
   config.consider_all_requests_local = false
   config.action_controller.perform_caching = true
+  config.assets.raise_production_errors = true
 
   config.i18n.fallbacks = true
 
@@ -27,7 +28,7 @@ Airesis::Application.configure do
   config.force_ssl = (ENV['FORCE_SSL'].try(:downcase) == 'true')
 
   # config.logger = Logger.new(Rails.root.join('log', Rails.env + '.log'), 50, 100.megabytes)
-  # config.log_level = :info
+  config.log_level = :info
 
   config.active_record.raise_in_transactional_callbacks = true
 end
