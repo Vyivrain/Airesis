@@ -7,10 +7,10 @@ gem 'rails', '~> 4.2.0'
 gem 'turnout'
 
 gem 'sass-rails'
+gem 'compass-rails'
 gem 'coffee-rails'
 gem 'uglifier'
 
-gem 'sprockets'
 
 gem 'foundation-rails'
 
@@ -80,6 +80,7 @@ end
 
 group :production do
   gem 'therubyracer'
+  gem 'rails_12factor'
   gem 'newrelic_rpm'
   gem 'sentry-raven', git: 'https://github.com/getsentry/raven-ruby'
   gem 'sprockets_better_errors'
