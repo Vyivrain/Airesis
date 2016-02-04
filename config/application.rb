@@ -18,7 +18,8 @@ module Airesis
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
-    config.serve_static_assets = true
+    config.serve_static_files = true
+    config.assets.raise_production_errors = true
     config.autoload_paths << "#{Rails.root}/lib"
     config.time_zone = 'Rome'
     config.i18n.default_locale = :'en-EU'

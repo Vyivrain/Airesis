@@ -574,6 +574,8 @@ GEM
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       sprockets (>= 2.8, < 4.0)
+    sprockets_better_errors (0.0.4)
+      sprockets-rails (>= 1.0.0)
     sshkit (1.7.1)
       colorize (>= 0.7.0)
       net-scp (>= 1.1.2)
@@ -733,6 +735,7 @@ DEPENDENCIES
   slim-rails
   spring
   sprockets (= 2.12.4)
+  sprockets_better_errors
   sshkit
   sunspot-queue!
   sunspot-rails-http-basic-auth!
@@ -754,4 +757,4 @@ DEPENDENCIES
   workflow
 
 BUNDLED WITH
-   1.10.6
+   1.11.2
