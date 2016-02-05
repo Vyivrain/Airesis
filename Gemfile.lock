@@ -708,7 +708,6 @@ DEPENDENCIES
   rails_autolink
   recaptcha
   redcarpet
-  redis
   rotp
   rspec-rails
   rubocop

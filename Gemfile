@@ -9,7 +9,6 @@ gem 'turnout'
 gem 'sass-rails'
 gem 'coffee-rails'
 gem 'uglifier'
-gem 'redis'
 gem 'foundation-rails', '~>5.5.3'
 
 gem 'pg'
@@ -20,6 +19,7 @@ gem 'sunspot_rails'
 gem 'sunspot-queue', git: 'https://github.com/gaffneyc/sunspot-queue'
 
 gem 'premailer-rails'
+gem 'sunspot_solr'
 
 gem 'uri-js-rails'
 
