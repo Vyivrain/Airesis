@@ -117,7 +117,7 @@ ADMIN_PASSWORD: "password"
 SITE: "https://www.example.com"
 
 # where is listening your redis installation?
-REDIS_URL: "redis://127.0.0.1:6379"
+REDIS_URL: "redis://127.0.0.1:6379/12"
 
 #host address ànd port of the Apache SOLR server
 SOLR_HOST: "localhost"
