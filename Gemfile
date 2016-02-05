@@ -9,7 +9,7 @@ gem 'turnout'
 gem 'sass-rails'
 gem 'coffee-rails'
 gem 'uglifier'
-
+gem 'redis'
 gem 'foundation-rails', '~>5.5.3'
 
 gem 'pg'
