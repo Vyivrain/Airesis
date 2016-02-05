@@ -1,12 +1,12 @@
-:concurrency: 2
+:concurrency: 1
 test:
-  :concurrency: 2
+  :concurrency: 1
 production:
-  :concurrency: 2
+  :concurrency: 1
 :queues:
-  - [high_priority,5]
-  - [sunspot,4]
-  - [notifications,3]
-  - [default,2]
+  - [high_priority,1]
+  - [sunspot,1]
+  - [notifications,1]
+  - [default,1]
   - [low_priority, 1]
   - [mailers, 1]
